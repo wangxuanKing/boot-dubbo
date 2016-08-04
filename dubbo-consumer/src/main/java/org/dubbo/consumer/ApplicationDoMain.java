@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  */
 @SpringBootApplication
-@ComponentScan("org.dubbo.protest")
+@ComponentScan("org.dubbo.consumer")
 @RestController
 public class ApplicationDoMain implements EmbeddedServletContainerCustomizer
 {
