@@ -1,0 +1,17 @@
+logger.dir: /home/admin/logs/healthps
+app:
+    name: dubbotest
+
+
+#dubbo config
+dubbo:
+    registry.url: 10.0.76.164:2181
+    export:
+        port: 20880
+        version: LATEST
+        retries: 0
+        timeout: 5000
+    reference:
+        timeout: 5000
+        check: false
+        retries: 0
