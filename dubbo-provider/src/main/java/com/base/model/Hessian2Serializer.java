@@ -1,6 +1,8 @@
 package com.base.model;
 
-public class Hessian2Serializer {
+import com.alibaba.dubbo.common.serialize.support.hessian.Hessian2Serialization;
+
+public class Hessian2Serializer extends Hessian2Serialization{
 	
 }
 
