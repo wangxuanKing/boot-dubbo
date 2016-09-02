@@ -1,5 +1,5 @@
 package com.base.model;
 
-public class FSTSerialDemo {
+public class KryoSerializer {
 
 }
