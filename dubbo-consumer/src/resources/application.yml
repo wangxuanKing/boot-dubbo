@@ -5,7 +5,7 @@ app:
 
 #dubbo config
 dubbo:
-    registry.url: 10.0.76.164:2181
+    registry.url: 127.0.0.1:2181
     export:
         port: 20880
         version: LATEST
